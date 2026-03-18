@@ -4,14 +4,18 @@
 
 This is a full-stack web application that allows users to view dentists and book appointments online.
 
+---
+
 ## 🚀 Features
 
 * View list of dentists
-* Book appointment
+* Book appointment with selected dentist
 * Prevent duplicate bookings
+* Form validation (all fields required)
+* Date restriction (no past dates allowed)
 * Admin panel to view all appointments
-* Form validation
-* Date restriction (no past dates)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -20,37 +24,33 @@ This is a full-stack web application that allows users to view dentists and book
 * Database: MongoDB
 * Styling: CSS
 
+---
+
 ## ⚙️ Setup Instructions
 
-### Frontend
+### 🔹 Backend
 
-```bash
-cd dentist-appointment
-npm install
-npm start
-```
-
-### Backend
-
-```bash
 cd backend
-npm install
 node server.js
-```
 
-## 🌐 API Endpoints
+### 🔹 Frontend
 
-* GET /api/appointments
-* POST /api/appointments
+cd dentist-appointment
+npm start
 
-## 📷 Screenshots
+---
 
-(Add screenshots here)
+## 📷 Demo
 
-## 📦 Deployment
+Screen recording attached in submission.
 
-Frontend: Netlify
-Backend: Render
+---
+
+## ⚠️ Note
+
+The application runs successfully in the local environment. Deployment setup was started but not completed due to time constraints.
+
+---
 
 ## 👩‍💻 Author
 
